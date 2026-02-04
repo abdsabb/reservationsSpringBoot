@@ -24,17 +24,8 @@ public class Artist {
     @Size(min = 2, max = 60, message = "The lastname must be between 2 and 60 characters long.")
     private String lastname;
 
-    // Constructeur requis par JPA
-    protected Artist() {
-    }
+    public Artist() {}
 
-    // Constructeur pratique
-    public Artist(String firstname, String lastname) {
-        this.firstname = firstname;
-        this.lastname = lastname;
-    }
-
-    // Getters & setters
     public Long getId() {
         return id;
     }
@@ -60,4 +51,3 @@ public class Artist {
         return firstname + " " + lastname;
     }
 }
-
