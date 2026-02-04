@@ -1,2 +1,5 @@
-be\iccbxl\pid\reservationsspringboot\HomeController.class
 be\iccbxl\pid\reservationsspringboot\ReservationsSpringbootApplication.class
+be\iccbxl\pid\reservationsspringboot\model\Artist.class
+be\iccbxl\pid\reservationsspringboot\service\ArtistService.class
+be\iccbxl\pid\reservationsspringboot\HomeController.class
+be\iccbxl\pid\reservationsspringboot\repository\ArtistRepository.class
