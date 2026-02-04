@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: be.iccbxl.pid.reservationsspringboot.ReservationsSpringbootApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.970 s -- in be.iccbxl.pid.reservationsspringboot.ReservationsSpringbootApplicationTests
