@@ -1,5 +1,6 @@
 be\iccbxl\pid\reservationsspringboot\service\EmailService.class
 be\iccbxl\pid\reservationsspringboot\service\UserService.class
+be\iccbxl\pid\reservationsspringboot\validation\PasswordMatches.class
 be\iccbxl\pid\reservationsspringboot\repository\UserRepository.class
 be\iccbxl\pid\reservationsspringboot\HomeController.class
 be\iccbxl\pid\reservationsspringboot\model\PasswordResetToken.class
@@ -17,4 +18,5 @@ be\iccbxl\pid\reservationsspringboot\repository\ArtistRepository.class
 be\iccbxl\pid\reservationsspringboot\model\Artist.class
 be\iccbxl\pid\reservationsspringboot\dto\UserRegistrationDto.class
 be\iccbxl\pid\reservationsspringboot\ReservationsSpringbootApplication.class
+be\iccbxl\pid\reservationsspringboot\validation\PasswordMatchesValidator.class
 be\iccbxl\pid\reservationsspringboot\controller\RegistrationController.class

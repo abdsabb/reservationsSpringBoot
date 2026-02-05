@@ -18,3 +18,5 @@ C:\Users\zeu\Desktop\InitializrSpringbootProject\src\main\java\be\iccbxl\pid\res
 C:\Users\zeu\Desktop\InitializrSpringbootProject\src\main\java\be\iccbxl\pid\reservationsspringboot\service\PasswordResetTokenService.java
 C:\Users\zeu\Desktop\InitializrSpringbootProject\src\main\java\be\iccbxl\pid\reservationsspringboot\service\TokenCleanup.java
 C:\Users\zeu\Desktop\InitializrSpringbootProject\src\main\java\be\iccbxl\pid\reservationsspringboot\service\UserService.java
+C:\Users\zeu\Desktop\InitializrSpringbootProject\src\main\java\be\iccbxl\pid\reservationsspringboot\validation\PasswordMatches.java
+C:\Users\zeu\Desktop\InitializrSpringbootProject\src\main\java\be\iccbxl\pid\reservationsspringboot\validation\PasswordMatchesValidator.java
