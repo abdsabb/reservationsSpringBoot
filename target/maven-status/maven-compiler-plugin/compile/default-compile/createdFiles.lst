@@ -8,6 +8,7 @@ be\iccbxl\pid\reservationsspringboot\controller\LoginController.class
 be\iccbxl\pid\reservationsspringboot\model\UserRole.class
 be\iccbxl\pid\reservationsspringboot\service\PasswordResetTokenService.class
 be\iccbxl\pid\reservationsspringboot\repository\PasswordResetTokenRepository.class
+be\iccbxl\pid\reservationsspringboot\service\TokenCleanup.class
 be\iccbxl\pid\reservationsspringboot\service\ArtistService.class
 be\iccbxl\pid\reservationsspringboot\model\User.class
 be\iccbxl\pid\reservationsspringboot\config\SpringSecurityConfig.class
