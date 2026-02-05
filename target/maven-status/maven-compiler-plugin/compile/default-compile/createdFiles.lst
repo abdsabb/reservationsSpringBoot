@@ -15,4 +15,6 @@ be\iccbxl\pid\reservationsspringboot\config\SpringSecurityConfig.class
 be\iccbxl\pid\reservationsspringboot\controller\ArtistController.class
 be\iccbxl\pid\reservationsspringboot\repository\ArtistRepository.class
 be\iccbxl\pid\reservationsspringboot\model\Artist.class
+be\iccbxl\pid\reservationsspringboot\dto\UserRegistrationDto.class
 be\iccbxl\pid\reservationsspringboot\ReservationsSpringbootApplication.class
+be\iccbxl\pid\reservationsspringboot\controller\RegistrationController.class

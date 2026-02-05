@@ -23,18 +23,12 @@ public class SpringSecurityConfig {
             // Autorisations
             .authorizeHttpRequests(auth -> auth
                 .requestMatchers(
-                    "/", 
-                    "/login",
-                    "/css/**",
-                    "/js/**",
-                    "/images/**",
-                    "/webjars/**",
-                    "/favicon.ico",
-                    "/forgot-password",
-                    "/reset-password",
-                    "/reset-success",
-                    "/error"
-                ).permitAll()
+        "/", "/error",
+        "/login", "/login**",
+        "/register",
+        "/forgot-password", "/reset-password", "/reset-success",
+        "/css/**", "/js/**"
+    ).permitAll()
                 .requestMatchers("/admin").hasRole("ADMIN")
                 .requestMatchers("/user").hasRole("MEMBER")
                 .anyRequest().authenticated()
