@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.DeleteMapping;
 
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.validation.Valid;
@@ -98,6 +99,14 @@ public class ArtistController {
 	    
 	    return "redirect:/artists/"+artist.getId();
 	}
-
-
+        @DeleteMapping("/artists/{id}")
+	public String delete(@PathVariable long id, Model model) {
+	    Artist existing = service.getArtist(id);
+		
+	    if(existing!=null) {		
+	    	service.deleteArtist(id);
+	    }
+	    	    
+	    return "redirect:/artists";
+	}
 }
