@@ -11,6 +11,7 @@ be\iccbxl\pid\reservationsspringboot\service\PasswordResetTokenService.class
 be\iccbxl\pid\reservationsspringboot\repository\PasswordResetTokenRepository.class
 be\iccbxl\pid\reservationsspringboot\service\TokenCleanup.class
 be\iccbxl\pid\reservationsspringboot\service\ArtistService.class
+be\iccbxl\pid\reservationsspringboot\validation\StrongPasswordValidator.class
 be\iccbxl\pid\reservationsspringboot\model\User.class
 be\iccbxl\pid\reservationsspringboot\config\SpringSecurityConfig.class
 be\iccbxl\pid\reservationsspringboot\controller\ArtistController.class
@@ -20,3 +21,4 @@ be\iccbxl\pid\reservationsspringboot\dto\UserRegistrationDto.class
 be\iccbxl\pid\reservationsspringboot\ReservationsSpringbootApplication.class
 be\iccbxl\pid\reservationsspringboot\validation\PasswordMatchesValidator.class
 be\iccbxl\pid\reservationsspringboot\controller\RegistrationController.class
+be\iccbxl\pid\reservationsspringboot\validation\StrongPassword.class
