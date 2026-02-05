@@ -3,11 +3,15 @@ C:\Users\zeu\Desktop\InitializrSpringbootProject\src\main\java\be\iccbxl\pid\res
 C:\Users\zeu\Desktop\InitializrSpringbootProject\src\main\java\be\iccbxl\pid\reservationsspringboot\controller\LoginController.java
 C:\Users\zeu\Desktop\InitializrSpringbootProject\src\main\java\be\iccbxl\pid\reservationsspringboot\HomeController.java
 C:\Users\zeu\Desktop\InitializrSpringbootProject\src\main\java\be\iccbxl\pid\reservationsspringboot\model\Artist.java
+C:\Users\zeu\Desktop\InitializrSpringbootProject\src\main\java\be\iccbxl\pid\reservationsspringboot\model\PasswordResetToken.java
 C:\Users\zeu\Desktop\InitializrSpringbootProject\src\main\java\be\iccbxl\pid\reservationsspringboot\model\User.java
 C:\Users\zeu\Desktop\InitializrSpringbootProject\src\main\java\be\iccbxl\pid\reservationsspringboot\model\UserRole.java
 C:\Users\zeu\Desktop\InitializrSpringbootProject\src\main\java\be\iccbxl\pid\reservationsspringboot\repository\ArtistRepository.java
+C:\Users\zeu\Desktop\InitializrSpringbootProject\src\main\java\be\iccbxl\pid\reservationsspringboot\repository\PasswordResetTokenRepository.java
 C:\Users\zeu\Desktop\InitializrSpringbootProject\src\main\java\be\iccbxl\pid\reservationsspringboot\repository\UserRepository.java
 C:\Users\zeu\Desktop\InitializrSpringbootProject\src\main\java\be\iccbxl\pid\reservationsspringboot\ReservationsSpringbootApplication.java
 C:\Users\zeu\Desktop\InitializrSpringbootProject\src\main\java\be\iccbxl\pid\reservationsspringboot\service\ArtistService.java
 C:\Users\zeu\Desktop\InitializrSpringbootProject\src\main\java\be\iccbxl\pid\reservationsspringboot\service\CustomUserDetailsService.java
+C:\Users\zeu\Desktop\InitializrSpringbootProject\src\main\java\be\iccbxl\pid\reservationsspringboot\service\EmailService.java
+C:\Users\zeu\Desktop\InitializrSpringbootProject\src\main\java\be\iccbxl\pid\reservationsspringboot\service\PasswordResetTokenService.java
 C:\Users\zeu\Desktop\InitializrSpringbootProject\src\main\java\be\iccbxl\pid\reservationsspringboot\service\UserService.java

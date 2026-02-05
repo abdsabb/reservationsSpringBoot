@@ -1,9 +1,13 @@
+be\iccbxl\pid\reservationsspringboot\service\EmailService.class
 be\iccbxl\pid\reservationsspringboot\service\UserService.class
 be\iccbxl\pid\reservationsspringboot\repository\UserRepository.class
 be\iccbxl\pid\reservationsspringboot\HomeController.class
+be\iccbxl\pid\reservationsspringboot\model\PasswordResetToken.class
 be\iccbxl\pid\reservationsspringboot\service\CustomUserDetailsService.class
 be\iccbxl\pid\reservationsspringboot\controller\LoginController.class
 be\iccbxl\pid\reservationsspringboot\model\UserRole.class
+be\iccbxl\pid\reservationsspringboot\service\PasswordResetTokenService.class
+be\iccbxl\pid\reservationsspringboot\repository\PasswordResetTokenRepository.class
 be\iccbxl\pid\reservationsspringboot\service\ArtistService.class
 be\iccbxl\pid\reservationsspringboot\model\User.class
 be\iccbxl\pid\reservationsspringboot\config\SpringSecurityConfig.class
