@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
+import be.iccbxl.pid.reservationsspringboot.dto.UserProfileDto;
 import be.iccbxl.pid.reservationsspringboot.dto.UserRegistrationDto;
 import be.iccbxl.pid.reservationsspringboot.model.User;
 import be.iccbxl.pid.reservationsspringboot.model.UserRole;
@@ -53,6 +54,23 @@ public class UserService {
     }
  
     public void updateUser(long id, User user) {
+        userRepository.save(user);
+    }
+
+    public void updateUserFromDto(UserProfileDto dto) {
+        User user = userRepository.findById(dto.getId())
+                .orElseThrow(() -> new RuntimeException("Utilisateur introuvable"));
+
+        user.setFirstname(dto.getFirstname());
+        user.setLastname(dto.getLastname());
+        user.setEmail(dto.getEmail());
+        user.setLangue(dto.getLangue());
+
+        // Si un nouveau mot de passe est fourni et validé
+        if (dto.getPassword() != null && !dto.getPassword().isBlank()) {
+            user.setPassword(passwordEncoder.encode(dto.getPassword()));
+        }
+
         userRepository.save(user);
     }
  

@@ -1,10 +1,13 @@
 C:\Users\zeu\Desktop\InitializrSpringbootProject\src\main\java\be\iccbxl\pid\reservationsspringboot\config\SpringSecurityConfig.java
 C:\Users\zeu\Desktop\InitializrSpringbootProject\src\main\java\be\iccbxl\pid\reservationsspringboot\controller\ArtistController.java
 C:\Users\zeu\Desktop\InitializrSpringbootProject\src\main\java\be\iccbxl\pid\reservationsspringboot\controller\LoginController.java
+C:\Users\zeu\Desktop\InitializrSpringbootProject\src\main\java\be\iccbxl\pid\reservationsspringboot\controller\ProfileController.java
 C:\Users\zeu\Desktop\InitializrSpringbootProject\src\main\java\be\iccbxl\pid\reservationsspringboot\controller\RegistrationController.java
+C:\Users\zeu\Desktop\InitializrSpringbootProject\src\main\java\be\iccbxl\pid\reservationsspringboot\dto\UserProfileDto.java
 C:\Users\zeu\Desktop\InitializrSpringbootProject\src\main\java\be\iccbxl\pid\reservationsspringboot\dto\UserRegistrationDto.java
 C:\Users\zeu\Desktop\InitializrSpringbootProject\src\main\java\be\iccbxl\pid\reservationsspringboot\HomeController.java
 C:\Users\zeu\Desktop\InitializrSpringbootProject\src\main\java\be\iccbxl\pid\reservationsspringboot\model\Artist.java
+C:\Users\zeu\Desktop\InitializrSpringbootProject\src\main\java\be\iccbxl\pid\reservationsspringboot\model\Language.java
 C:\Users\zeu\Desktop\InitializrSpringbootProject\src\main\java\be\iccbxl\pid\reservationsspringboot\model\PasswordResetToken.java
 C:\Users\zeu\Desktop\InitializrSpringbootProject\src\main\java\be\iccbxl\pid\reservationsspringboot\model\User.java
 C:\Users\zeu\Desktop\InitializrSpringbootProject\src\main\java\be\iccbxl\pid\reservationsspringboot\model\UserRole.java
