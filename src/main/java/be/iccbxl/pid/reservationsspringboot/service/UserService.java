@@ -12,6 +12,7 @@ import be.iccbxl.pid.reservationsspringboot.dto.UserRegistrationDto;
 import be.iccbxl.pid.reservationsspringboot.model.User;
 import be.iccbxl.pid.reservationsspringboot.model.UserRole;
 import be.iccbxl.pid.reservationsspringboot.repository.UserRepository;
+import be.iccbxl.pid.reservationsspringboot.repository.UserRepository;
 
 @Service
 public class UserService {
@@ -77,4 +78,10 @@ public class UserService {
     public void deleteUser(long id) {
         userRepository.deleteById(id);
     }
+    
+    public void deleteByLogin(String login) {
+        User user = userRepository.findByLogin(login);
+        userRepository.delete(user);
+    }
+
 }

@@ -32,12 +32,20 @@
                         </tr>
                     </tbody>
                 </table>
-                <p><a th:href="@{/profile?edit}">Modifier</a></p>
+                <ul>
+                    <li><a th:href="@{/profile?edit}">Modifier</a></li>
+                    <li>
+                        <form th:action="@{/profile/delete}" th:method="delete"
+                            onsubmit="return confirm('Êtes-vous sûr de vouloir supprimer votre compte ? Cette action est irréversible.');">
+                            <button type="submit">Supprimer mon compte</button>
+                        </form>
+                    </li>
+                </ul>
             </section>
             <section th:if="${param.edit != null}">
                 <h2>Modifier son profil</h2>
 
-                <form th:action="@{/profile}" th:object="${user}" method="post">
+                <form th:action="@{/profile?edit}" th:object="${user}" method="post">
                     <input type="hidden" th:field="*{id}" />
 
                     <div>
@@ -86,7 +94,7 @@
                     <!-- Erreur globale -->
                     <div class="error" th:errors="*{__all__}"></div>
 
-                    <button type="submit" name="edit" value="1">Mettre à jour</button>
+                    <button type="submit" style="margin-top: 15px;">Mettre à jour</button>
                     <p><a th:href="@{/profile}">Annuler</a></p>
                 </form>
             </section>
