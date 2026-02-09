@@ -1,0 +1,1 @@
+ALTER TABLE `users` ADD `deleted_at` DATETIME NULL AFTER `created_at`;

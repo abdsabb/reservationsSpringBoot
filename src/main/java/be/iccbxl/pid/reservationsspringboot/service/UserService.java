@@ -2,6 +2,7 @@ package be.iccbxl.pid.reservationsspringboot.service;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.time.LocalDateTime;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
@@ -80,8 +81,11 @@ public class UserService {
     }
     
     public void deleteByLogin(String login) {
-        User user = userRepository.findByLogin(login);
-        userRepository.delete(user);
-    }
+    userRepository.findByLogin(login).ifPresent(user -> {
+        user.setDeletedAt(LocalDateTime.now());
+        userRepository.save(user);
+    });
+}
+
 
 }

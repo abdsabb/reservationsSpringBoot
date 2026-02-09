@@ -41,7 +41,8 @@ public class ProfileController {
         Authentication auth = SecurityContextHolder.getContext().getAuthentication();
         String login = auth.getName();
 
-        User user = userRepository.findByLogin(login);
+        User user = userRepository.findByLogin(login)
+        .orElseThrow(() -> new RuntimeException("Utilisateur introuvable"));
 
         if(user==null) {
             throw new RuntimeException("Utilisateur introuvable");

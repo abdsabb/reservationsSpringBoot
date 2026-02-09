@@ -40,6 +40,10 @@ public class User {
     private UserRole role;
     
     private LocalDateTime created_at = LocalDateTime.now();
+    
+    @Column(name = "deleted_at")
+    private LocalDateTime deletedAt;
+
 
     @Override
     public String toString() {
